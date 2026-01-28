@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark mode için class strategy */
+html {
+  @apply bg-white text-black;
+}
+html.dark {
+  @apply bg-neutral-900 text-neutral-100;
+}
